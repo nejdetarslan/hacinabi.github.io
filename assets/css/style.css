@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/hacinabi2.gif") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -392,9 +392,8 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
@@ -690,7 +689,8 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 40px 20px;
+  margin-top: 15px;
   transition: all ease-in-out 0.3s;
 }
 
